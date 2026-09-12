@@ -1,0 +1,22 @@
+body {
+  display: flex;
+  margin: 0px;
+}
+
+header {
+  background-color: black;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#search {
+  background-color: transparent;
+  min-width: 200px;
+  padding: 0.5rem;
+  border-radius: 0px;
+  color: white;
+  border: 1px solid #565c65;
+  font-size: .94rem;
+}
