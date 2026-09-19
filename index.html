@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>NASA</title>
@@ -9,8 +9,34 @@
   </head>
   <body>
     <header>
-      <input type="text" placeholder="Search" id="search">
-      <img src="logo/nasa-logo.svg" alt="">
+      <!-- Wrapper -->
+      <div class="container-wrapper" id="header">
+        <span id="start">Explore</span>
+        <div id="left">
+          <input type="text" placeholder="Search" id="search" />
+        </div>
+        <img src="logo/nasa-logo.svg" id="mine" />
+        <div id="span">
+          <span>News & Events</span>
+          <span>Multimedia</span>
+          <span>NASA+</span>
+          <span id="live">LIVE</span>
+        </div>
+      </div>
     </header>
+    <main>
+      <div id="landing">
+        <div class="container-wrapper">
+          <div id="main-text">
+            <h2>Humanity-s First Lunar Outpost</h2>
+            <p>
+              NASA is working toward establishing a long-term human presence on
+              the Moon.
+            </p>
+            <button>Listen</button>
+          </div>
+        </div>
+      </div>
+    </main>
   </body>
 </html>
